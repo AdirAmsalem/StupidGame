@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "fireball.js",
+  "sourceRoot": "..\\coffee",
+  "sources": [
+    "fireball.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,IAAA,QAAA;EAAA;iSAAA;;AAAA;AAEC,6BAAA,CAAA;;;;GAAA;;AAAA,qBAAA,IAAA,GAAM,SAAA,GAAA;WACL,mCAAM,UAAN,EADK;EAAA,CAAN,CAAA;;kBAAA;;GAFsB,OAAvB,CAAA"
+}

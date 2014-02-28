@@ -1,0 +1,44 @@
+* {
+	-webkit-user-select: none;
+}
+
+html {
+	cursor: crosshair;
+}
+
+.restart-button {
+	cursor: pointer;
+}
+
+.player, .enemy {
+	position: absolute;
+	font-weight: bold;
+}
+
+.player {
+	transition: all 0.5s ease;
+}
+
+.enemy {
+	color: #6f3030;
+}
+
+.player:after, .enemy:after {
+	content: attr(data-name);
+	display: block;
+}
+
+.attack {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: black;
+	border-radius: 50%;
+
+	transition: all 1.5s ease-in;
+}
+
+.attack.fireball {
+	background-color: red;
+	box-shadow: 0 0 7px 2px #f20000;
+}
